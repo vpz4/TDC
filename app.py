@@ -2272,18 +2272,21 @@ def data_curator(path, imputation_method_id, outlier_detection_method_id, sim_me
     fname_e = fname.split('.')[0]+"_evaluation_report.xlsx"
     fname_sim_corr = fname.split('.')[0]+"_similarity_report_corr.xlsx"
     fname_simlex = fname.split('.')[0]+"_similarity_report_lex.xlsx"
-    
+    fname_json = fname.split('.')[0]+"_results.json"
+
     path_f_c = 'results/'+fname_c
     path_f_c_v2 = 'results/'+fname_c_v2
     path_f_e = 'results/'+fname_e
     path_f_sim_corr = 'results/'+fname_sim_corr
     path_f_sim_lex = 'results/'+fname_simlex
-    
+    path_f_json = 'results/'+fname_json
+
     print("1. Path for the curated dataset:", path_f_c)
     print("2. Path for the clean curated dataset:", path_f_c_v2)
     print("3. Path for the quality evaluation report:", path_f_e)
     print("4. Path for the similarity report with highly correlated features:", path_f_sim_corr)
     print("5. Path for the similarity report with lexically similar features:", path_f_sim_lex)
+    print("6. Path for the results json:", path_f_json)
     print("")
 
     if(imputation_method_id is None):
@@ -2429,7 +2432,7 @@ def data_curator(path, imputation_method_id, outlier_detection_method_id, sim_me
     final_json.append(D_c_json)
     final_json.append(D_j_json)
 
-    save_file = open("results/results.json", "w")
+    save_file = open(path_f_json, "w")
     json.dump(final_json, save_file, indent=6)  
     save_file.close()  
 
