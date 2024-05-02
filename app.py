@@ -2265,7 +2265,7 @@ def data_curator(path, imputation_method_id, outlier_detection_method_id, sim_me
     data_org = dataframe_to_orange(df)
 
     print("Constructing the paths for the output...")
-    fname = path.split('/')[2]
+    fname = path.split('/')[-1]
     fname_c = fname.split('.')[0]+"_curated_dataset.xlsx"
     fname_c_v2 = fname.split('.')[0]+"_curated_dataset_clean.xlsx"
     path_f_c_v2 = fname.split('.')[0]+"_curated_dataset_clean.xlsx"
