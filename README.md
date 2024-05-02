@@ -1,2 +1,2 @@
 # TDC
-Tabulat data curation tool
+Tabular data curation tool
