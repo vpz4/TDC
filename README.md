@@ -63,7 +63,7 @@ Note: The TDC tool has a built-in functionality that calculates the Jaro distanc
 
 
 **Main publication**
-- Pezoulas, Vasileios C., et al. "Medical data quality assessment: On the development of an automated framework for medical data curation." Computers in biology and medicine 107 (2019): 270-283.
+- Pezoulas, Vasileios C., et al. "Medical data quality assessment: On the development of an automated framework for medical data curation." Computers in biology and medicine 107 (2019): 270-283. https://www.sciencedirect.com/science/article/pii/S0010482519300733
 
 
 **Related publications**
