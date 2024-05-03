@@ -13,6 +13,16 @@ Tabular data curation (TDC) tool
 - README.md: a readme document which is needed for the GitHub repository.
 - requirements.txt: the versions of the required python libraries that are necessary when building the docker.
 
+**Input & Output**
+- Input: A tabular dataset in .csv or .xlsx or .JSON format.
+- Output: The TDC tool provides the following:
+  - a data quality evaluation report which summarises useful metadata and feature-level diagnostics,
+  - a curated dataset which is the original dataset where the problematic fields (e.g., outliers, missing values, data inconsistencies) are highlighted using colour coding,
+  - a clean curated dataset which is the curated dataset where the features with bad quality (i.e. with more than 30% missing values) are automatically removed,
+  - a similarity  report which summarises the highly correlated pairs of features (if any), and
+  - another similarity report which summarises the lexically similar pairs of features (if any).
+  - a structured .json file which includes all the information from the previous reports in a structured way to support the work of programmers towards the development of customised front-end interfaces.
+
 **Functionalities**
 - Select your dataset (supported formats: .csv/.json/.xlsx).
 - Select a method for outlier detection (mandatory).
