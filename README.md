@@ -13,6 +13,7 @@ Tabular data curation (TDC) tool
 - README.md: a readme document which is needed for the GitHub repository.
 - requirements.txt: the versions of the required python libraries that are necessary when building the docker.
 
+
 **Input & Output**
 - Input: A tabular dataset in .csv or .xlsx or .JSON format.
 - Output: The TDC tool generates the following reports:
@@ -22,6 +23,7 @@ Tabular data curation (TDC) tool
   - a similarity  report which summarises the highly correlated pairs of features (if any), and
   - another similarity report which summarises the lexically similar pairs of features (if any).
   - a structured .json file which includes all the information from the previous reports in a structured way to support the work of programmers towards the development of customised front-end interfaces.
+
 
 **Functionalities**
 - Select your dataset (supported formats: .csv/.json/.xlsx).
@@ -41,7 +43,10 @@ Tabular data curation (TDC) tool
   - None: No similarity detection is applied.
 Note: The TDC tool has a built-in functionality that calculates the Jaro distance between each pair of feature labels to estimate the lexical similarity and thus input is not requested by the user.
 - Select a method for data imputation (optional).
-  - Average/median: Imputes missing values using the average (mean) or median of the observed data points in the same variable, which is useful for maintaining the central tendency of the dataset.
-  - Random: Fills missing entries with zeros, which can be appropriate for datasets where a zero can represent the absence of an attribute or a neutral baseline, but may skew data distributions if zero is not a meaningful value for the variable.
-  - Zeros: Fills missing entries with zeros, which can be appropriate for datasets where a zero can represent the absence of an attribute or a neutral baseline, but may skew data distributions if zero is not a meaningful value for the variable.
-  - None: No imputation method is applied. Recommended option.
+
+
+**Related publications**
+- Pezoulas, Vasileios C., et al. "Medical data quality assessment: On the development of an automated framework for medical data curation." Computers in biology and medicine 107 (2019): 270-283.
+- Pezoulas, Vasileios C., et al. "Enhancing medical data quality through data curation: A case study in primary Sjögren's syndrome." Clin. Exp. Rheumatology 37.3 (2019): 90-96. 
+- Pezoulas, Vasileios C., et al. "Distilling knowledge from high quality biobank data towards the discovery of risk factors for patients with cardiovascular diseases and depression." 2023 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI). IEEE, 2023. 
+- Pezoulas, Vasileios C., et al. "A computational pipeline for data augmentation towards the improvement of disease classification and risk stratification models: A case study in two clinical domains." Computers in Biology and Medicine 134 (2021): 104520.
