@@ -16,7 +16,7 @@ Tabular data curation (TDC) tool
 **Functionalities**
 - Select your dataset (supported formats: .csv/.json/.xlsx).
 - Select a method for outlier detection (mandatory).
--- z-score: A measure of how many standard deviations a data point is from the mean of its distribution.
+  - z-score: A measure of how many standard deviations a data point is from the mean of its distribution.
 -- z-score (mod.): A robust measure of standard deviations for data points in a sample, typically using the median and median absolute deviation instead of the mean and standard deviation, which improves resilience to outliers. Recommended option.
 -- interquartile range (IQR): A measure of statistical dispersion based on the difference between the 75th and 25th percentiles.
 -- Grubb’s test: A statistical test which is used to identify outliers by comparing the extreme values to the expected values under a normal distribution.
