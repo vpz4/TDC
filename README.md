@@ -66,8 +66,8 @@ Note: The TDC tool has a built-in functionality that calculates the Jaro distanc
 - Pezoulas, Vasileios C., et al. "Medical data quality assessment: On the development of an automated framework for medical data curation." Computers in biology and medicine 107 (2019): 270-283. https://www.sciencedirect.com/science/article/pii/S0010482519300733
 
 
-**Related publications**
-- Pezoulas, Vasileios C., et al. "Enhancing medical data quality through data curation: A case study in primary Sjögren's syndrome." Clin. Exp. Rheumatology 37.3 (2019): 90-96.
-- Pezoulas, Vasileios C., et al. "Distilling knowledge from high quality biobank data towards the discovery of risk factors for patients with cardiovascular diseases and depression." 2023 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI). IEEE, 2023. 
-- Pezoulas, Vasileios C., et al. "A computational pipeline for data augmentation towards the improvement of disease classification and risk stratification models: A case study in two clinical domains." Computers in Biology and Medicine 134 (2021): 104520.
+**Succesfull applications of the TDC tool**
+- Pezoulas, Vasileios C., et al. "Enhancing medical data quality through data curation: A case study in primary Sjögren's syndrome." Clin. Exp. Rheumatology 37.3 (2019): 90-96. https://pubmed.ncbi.nlm.nih.gov/31287405/
+- Pezoulas, Vasileios C., et al. "Distilling knowledge from high quality biobank data towards the discovery of risk factors for patients with cardiovascular diseases and depression." 2023 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI). IEEE, 2023. https://ieeexplore.ieee.org/document/10313449
+- Pezoulas, Vasileios C., et al. "A computational pipeline for data augmentation towards the improvement of disease classification and risk stratification models: A case study in two clinical domains." Computers in Biology and Medicine 134 (2021): 104520. https://www.sciencedirect.com/science/article/pii/S0010482521003140
 
