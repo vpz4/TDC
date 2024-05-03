@@ -15,7 +15,7 @@ Tabular data curation (TDC) tool
 
 **Input & Output**
 - Input: A tabular dataset in .csv or .xlsx or .JSON format.
-- Output: The TDC tool provides the following:
+- Output: The TDC tool generates the following reports:
   - a data quality evaluation report which summarises useful metadata and feature-level diagnostics,
   - a curated dataset which is the original dataset where the problematic fields (e.g., outliers, missing values, data inconsistencies) are highlighted using colour coding,
   - a clean curated dataset which is the curated dataset where the features with bad quality (i.e. with more than 30% missing values) are automatically removed,
