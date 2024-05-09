@@ -2338,6 +2338,9 @@ def data_curator(path, imputation_method_id, outlier_detection_method_id, sim_me
     stop = timeit.default_timer()
     print('Time: ', np.around(stop - start, 3), 'sec'); print()
 
+    D_c_json = None
+    D_j_json = None
+    
     if(sim_method_id is not None):
         print("Applying similarity detection...")
         start = timeit.default_timer()
