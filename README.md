@@ -67,7 +67,7 @@ Note: The TDC tool has a built-in functionality that calculates the Jaro distanc
 
 **Instructions**
 - Clone the repository from https://github.com/vpz4/TDC.
-- It is recommended that you store it in “C:/TDC”.
+- It is recommended that you store it in “C:/TDC” (e.g. in Windows).
 - Install docker and docker compose utility as prerequisites.
 - Build the docker by executing “docker build -t tdc-app .”.
 - Run “docker run -d -p 5000:5000 -v C:/TDC/results:/app/results --name tdc-app tdc-app”.
