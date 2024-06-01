@@ -65,6 +65,15 @@ Note: The TDC tool has a built-in functionality that calculates the Jaro distanc
   - xlutils==2.0.0.
 
 
+**Instructions**
+- Clone the repository from https://github.com/vpz4/TDC.
+- It is recommended that you store it in “C:/TDC”.
+- Install docker and docker compose utility as prerequisites.
+- Build the docker by executing “docker build -t tdc-app .”.
+- Run “docker run -d -p 5000:5000 -v C:/TDC/results:/app/results --name tdc-app tdc-app”.
+- The tool is accessible through a browser at: http://127.0.0.1:5000/main.
+
+
 **Main publication**
 - Pezoulas, Vasileios C., et al. "Medical data quality assessment: On the development of an automated framework for medical data curation." Computers in biology and medicine 107 (2019): 270-283. https://www.sciencedirect.com/science/article/pii/S0010482519300733
 
