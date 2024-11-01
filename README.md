@@ -1,8 +1,8 @@
 # TDC
-Tabular data curation (TDC) tool
-![TDC](https://github.com/user-attachments/assets/afc6ed86-f128-4726-87c1-be9fde75824b)
+![TDC](https://github.com/user-attachments/assets/5c5309af-1a6e-44c3-964e-35fab465dfde)
 
-The TDC tool is a flask-based application which has developed in Python 3.9 and has been distributed as a dockerized application. It takes as input a tabular dataset in either .csv or .xlsx or a specified .JSON format and provides five user-friendly reports (in .xlsx format) summarising metadata and feature-level diagnostics, problematic fields, as well as, highly correlated and lexically similar pairs of features. The TDC tool also provides a .JSON file which includes all the previous information.
+
+The TDC (tabular data curation) tool is a flask-based application which has developed in Python 3.9 and has been distributed as a dockerized application. It takes as input a tabular dataset in either .csv or .xlsx or a specified .JSON format and provides five user-friendly reports (in .xlsx format) summarising metadata and feature-level diagnostics, problematic fields, as well as, highly correlated and lexically similar pairs of features. The TDC tool also provides a .JSON file which includes all the previous information.
 
 
 **Structure of the TDC folder**
