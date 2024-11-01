@@ -79,9 +79,9 @@ Note: The TDC tool has a built-in functionality that calculates the Jaro distanc
 
 
 **Related EU projects where the tool has been deployed**
-- SILICOFCM (Grant agreement ID: 777204),
-- HarmonicSS (Grant agreement ID: 731944),
-- EUCAIM (Grant agreement ID: 101100633)
+- SILICOFCM - In Silico trials for drug tracing the effects of sarcomeric protein mutations leading to familial cardiomyopathy (Grant agreement ID: 777204)
+- HarmonicSS - HARMONIzation and integrative analysis of regional, national and international Cohorts on primary Sjögren’s Syndrome (pSS) towards improved stratification, treatment and health policy making (Grant agreement ID: 731944)
+- EUCAIM - European Cancer Imaging Initiative (Grant agreement ID: 101100633)
 
 
 **Succesfull applications of the TDC tool**
