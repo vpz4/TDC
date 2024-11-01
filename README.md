@@ -79,7 +79,9 @@ Note: The TDC tool has a built-in functionality that calculates the Jaro distanc
 
 
 **Related EU projects where the tool has been deployed**
-SILICOFCM (Grant agreement ID: 777204), HarmonicSS (Grant agreement ID: 731944), EUCAIM (Grant agreement ID: 101100633)
+- SILICOFCM (Grant agreement ID: 777204),
+- HarmonicSS (Grant agreement ID: 731944),
+- EUCAIM (Grant agreement ID: 101100633)
 
 
 **Succesfull applications of the TDC tool**
