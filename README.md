@@ -1,7 +1,7 @@
-# TDC
-Tabular data curation (TDC) tool
+![TDC](https://github.com/user-attachments/assets/974833b2-3ae4-423c-abbc-ffdfd411c53f)
 
-The TDC tool is a flask-based application which has developed in Python 3.9 and has been distributed as a dockerized application. It takes as input a tabular dataset in either .csv or .xlsx or a specified .JSON format and provides five user-friendly reports (in .xlsx format) summarising metadata and feature-level diagnostics, problematic fields, as well as, highly correlated and lexically similar pairs of features. The TDC tool also provides a .JSON file which includes all the previous information.
+
+The TDC (tabular data curation) tool is a flask-based application which has developed in Python 3.9 and has been distributed as a dockerized application. It takes as input a tabular dataset in either .csv or .xlsx or a specified .JSON format and provides five user-friendly reports (in .xlsx format) summarising metadata and feature-level diagnostics, problematic fields, as well as, highly correlated and lexically similar pairs of features. The TDC tool also provides a .JSON file which includes all the previous information.
 
 
 **Structure of the TDC folder**
@@ -76,6 +76,12 @@ Note: The TDC tool has a built-in functionality that calculates the Jaro distanc
 
 **Main publication**
 - Pezoulas, Vasileios C., et al. "Medical data quality assessment: On the development of an automated framework for medical data curation." Computers in biology and medicine 107 (2019): 270-283. https://www.sciencedirect.com/science/article/pii/S0010482519300733
+
+
+**Related EU projects where the tool has been deployed**
+- SILICOFCM - In Silico trials for drug tracing the effects of sarcomeric protein mutations leading to familial cardiomyopathy (Grant agreement ID: 777204)
+- HarmonicSS - HARMONIzation and integrative analysis of regional, national and international Cohorts on primary Sjögren’s Syndrome (pSS) towards improved stratification, treatment and health policy making (Grant agreement ID: 731944)
+- EUCAIM - European Cancer Imaging Initiative (Grant agreement ID: 101100633)
 
 
 **Succesfull applications of the TDC tool**
