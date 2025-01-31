@@ -2400,6 +2400,7 @@ def data_curator(path, imputation_method_id, outlier_detection_method_id, sim_me
     print('Time: ', np.around(stop - start, 3), 'sec')
     print()
     print("Done!")
+    sys.stdout.flush()
 
 
 def allowed_file(filename):
