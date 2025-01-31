@@ -22,14 +22,14 @@ import openpyxl
 import warnings
 from datetime import datetime
 from scipy.stats import spearmanr, pearsonr, kendalltau
-from flask import Flask, jsonify, request
+from flask import Flask, request
 from io import StringIO
 from outliers import smirnov_grubbs as grubbs
 from Orange.preprocess import Impute, Average
 from collections import Counter
 from Levenshtein import jaro
 from xlrd import open_workbook
-from flask import redirect, url_for, render_template, send_file
+from flask import render_template
 from xlutils.copy import copy
 from werkzeug.utils import secure_filename
 from openpyxl import Workbook
