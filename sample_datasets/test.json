@@ -22,11 +22,11 @@
       "true",
       0.1,
       2,
-      null,
-      null,
+      "",
+      "",
       "false",
-      null,
-      null
+      "",
+      ""
     ],
     [
       2.5,
@@ -38,9 +38,9 @@
       4,
       "alpha",
       "left",
-      null,
+      "",
       "+",
-      null
+      ""
     ],
     [
       21.1,
@@ -50,11 +50,11 @@
       "false",
       1,
       1,
-      null,
+      "",
       "left",
-      null,
-      null,
-      null
+      "",
+      "",
+      ""
     ],
     [
       0.21,
@@ -65,10 +65,10 @@
       2.0,
       2,
       "beta",
-      null,
+      "",
       "true",
-      null,
-      null
+      "",
+      ""
     ],
     [
       100,
@@ -76,13 +76,13 @@
       "mild",
       "usa",
       "false",
-      null,
-      null,
-      null,
+      "",
+      "",
+      "",
       "middle",
-      null,
+      "",
       "2022-10-20T11:44:23Z",
-      null
+      ""
     ],
     [
       10.0,
@@ -94,9 +94,9 @@
       3,
       "delta",
       "middle",
-      null,
-      null,
-      null
+      "",
+      "",
+      ""
     ],
     [
       5.1,
@@ -104,13 +104,13 @@
       "severe",
       "greece",
       "true",
-      null,
-      null,
-      null,
-      null,
+      "",
+      "",
+      "",
+      "",
       "true",
       2,
-      null
+      ""
     ],
     [
       2.5,
@@ -119,12 +119,12 @@
       "japan",
       "true",
       1.3,
-      null,
+      "",
       "beta",
       "right",
-      null,
-      null,
-      null
+      "",
+      "",
+      ""
     ],
     [
       7.8,
@@ -133,12 +133,12 @@
       "germany",
       "false",
       2.0,
-      null,
-      null,
+      "",
+      "",
       "right",
       "false",
       "2019-11-20T11:44:23Z",
-      null
+      ""
     ],
     [
       3.4,
@@ -146,13 +146,13 @@
       "severe",
       "greece",
       "true",
-      null,
-      null,
+      "",
+      "",
       "alpha",
-      null,
-      null,
-      null,
-      null
+      "",
+      "",
+      "",
+      ""
     ]
   ]
 }
