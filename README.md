@@ -1,7 +1,7 @@
 ![TDC](https://github.com/user-attachments/assets/974833b2-3ae4-423c-abbc-ffdfd411c53f)
 
 
-The TDC (tabular data curation) tool is a flask-based application which has developed in Python 3.9 and has been distributed as a dockerized application. It takes as input a tabular dataset in either .csv or .xlsx or a specified .JSON format and provides five user-friendly reports (in .xlsx format) summarising metadata and feature-level diagnostics, problematic fields, as well as, highly correlated and lexically similar pairs of features. The TDC tool also provides a .JSON file which includes all the previous information.
+The TDC (tabular data curation) tool is a flask-based application which has developed in Python 3.9 and has been distributed as a dockerized application. It takes as input a tabular dataset (e.g. clinical and imaging metadata) in either .csv or .xlsx or a specified .JSON format and provides five user-friendly reports (in .xlsx format) summarising metadata and feature-level diagnostics, problematic fields, as well as, highly correlated and lexically similar pairs of features. The TDC tool also provides a .JSON file which includes all the previous information.
 
 
 **Structure of the TDC folder**
@@ -20,12 +20,12 @@ The TDC (tabular data curation) tool is a flask-based application which has deve
 **Input & Output**
 - Input: A tabular dataset in .csv or .xlsx or .JSON format.
 - Output: The TDC tool generates the following reports:
-  - a data quality evaluation report which summarises useful metadata and feature-level diagnostics,
-  - a curated dataset which is the original dataset where the problematic fields (e.g., outliers, missing values, data inconsistencies) are highlighted using colour coding,
-  - a clean curated dataset which is the curated dataset where the features with bad quality (i.e. with more than 30% missing values) are automatically removed,
-  - a similarity  report which summarises the highly correlated pairs of features (if any), and
-  - another similarity report which summarises the lexically similar pairs of features (if any).
-  - a structured .json file which includes all the information from the previous reports in a structured way to support the work of programmers towards the development of customised front-end interfaces.
+  - a data quality evaluation report (in .xlsx format) which summarises useful metadata and feature-level diagnostics,
+  - a curated dataset (in .xlsx format) which is the original dataset where the problematic fields (e.g., outliers, missing values, data inconsistencies) are highlighted using colour coding,
+  - a clean curated dataset (in .xlsx format) which is the curated dataset where the features with bad quality (i.e. with more than 30% missing values) are automatically removed,
+  - a similarity  report (in .xlsx format) which summarises the highly correlated pairs of features (if any),
+  - another similarity report (in .xlsx format) which summarises the lexically similar pairs of features (if any),
+  - a structured document (in .JSON format) which includes all the information from the previous reports in a structured way to support the work of programmers towards the development of customised front-end interfaces.
 
 
 **Functionalities**
